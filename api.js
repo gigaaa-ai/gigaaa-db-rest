@@ -6,7 +6,7 @@ const compression = require('compression')
 const nocache = require('nocache')
 
 const pkg = require('./package.json')
-const todo = require('./lib/todo')
+const routes = require('./lib/routes')
 
 const api = express()
 module.exports = api
@@ -24,7 +24,7 @@ api.use(compression())
 api.use(nocache())
 api.use(poweredBy)
 
-api.get('/todo', todo)
+api.get('/routes', routes)
 
 api.use((err, req, res, next) => {
   if (res.headersSent) return next()
