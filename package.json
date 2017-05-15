@@ -19,7 +19,12 @@
   "engines": {
     "node": ">=6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "compression": "^1.6.2",
+    "corser": "^2.0.1",
+    "express": "^4.15.2",
+    "nocache": "^2.0.0"
+  },
   "scripts": {
     "start": "node index.js",
     "lint": "standard",
