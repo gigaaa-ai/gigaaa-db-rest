@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "gigaaa-db-rest",
+  "description": "A REST API around db-hafas.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Jannis R <mail@jannisr.de>",
+  "homepage": "https://github.com/derhuerst/gigaaa-db-rest",
+  "repository": "derhuerst/gigaaa-db-rest",
+  "bugs": "https://github.com/derhuerst/gigaaa-db-rest/issues",
+  "license": "ISC",
+  "keywords": [
+    "public",
+    "transport",
+    "api",
+    "http",
+    "rest"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard",
+    "prepush": "npm run lint"
+  },
+  "devDependencies": {
+    "husky": "^0.13.3",
+    "standard": "^10.0.2"
+  }
+}
