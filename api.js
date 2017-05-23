@@ -27,6 +27,7 @@ api.use(poweredBy)
 api.get('/routes', routes)
 
 api.use((err, req, res, next) => {
+  console.error(err)
   if (res.headersSent) return next()
   res.status(err.statusCode || 500).json({error: true, msg: err.message})
   next()
