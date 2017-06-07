@@ -24,6 +24,7 @@
     "corser": "^2.0.1",
     "db-hafas": "derhuerst/db-hafas#fptf",
     "express": "^4.15.2",
+    "generate-db-shop-urls": "^0.1.1",
     "moment-timezone": "^0.5.13",
     "nocache": "^2.0.0"
   },
